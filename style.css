@@ -1,5 +1,53 @@
-* {
+html {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 62.5%;
+}
+
+body {
     margin: 0;
     padding: 0;
-    background-color: olive;
+    background-color: rgb(38 41 44);
+    color: white;
+    text-transform: capitalize;
+}
+
+.color-imp{
+    color: rgb(249 39 78);
+}
+
+.color-sec{
+    color: rgb(166 197 44);
+}
+
+.color-tri{
+    color: rgb(218 219 116);
+}
+
+.numeros{
+    color: rgb(133, 133, 110);
+}
+
+h1{
+    font-size: 3rem;
+    margin: 1.8rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1.8rem auto;
+    gap: 4rem;
+
+    margin: 2rem 1.8rem;
+}
+
+
+h2, p{
+    margin: 0;
+    font-size: 2rem;
+    padding: .5rem;
+    font-weight: 200;
+}
+
+h2{
+    color:rgb(249 39 78) ;
 }
